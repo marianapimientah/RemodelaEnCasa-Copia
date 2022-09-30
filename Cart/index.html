@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title>Cart</title>
+</head>
+<body>
+    <header id="section-1">
+        <div class="logo-header">
+            <a href="../Home/index.html" target="_blank"><img src="./assets/Logo.png" alt="logo-remodela-en-casa"></a>
+        </div>
+        <div class="search-header">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input id="search-in" type="text" placeholder="Search for items...">
+        </div>
+        <div class="cart-login">
+            <a href="#cart-foo">
+                <lord-icon class="icon-sc-1"
+                src="https://cdn.lordicon.com/gtcqrwnh.json"
+                trigger="hover"
+                colors="primary:#34100b"
+                style="width:35px;height:35px">
+            </a>
+                </lord-icon>
+            <a href="../Login/Index.html" target="_blank">
+                <lord-icon class="icon-sc-1"
+                src="https://cdn.lordicon.com/ajkxzzfb.json"
+                trigger="hover"
+                colors="primary:#34100B,secondary:#34100B"
+                style="width:35px;height:35px">
+            </a>
+                </lord-icon>
+        </div>
+        <span class="btn-menu">
+            <i class="fas fa-bars"></i>
+        </span>
+    </header>
+    <div class="title">
+        <lord-icon class="icon-title"
+        src="https://cdn.lordicon.com/gtcqrwnh.json"
+        trigger="hover"
+        colors="primary:#FF902B"
+        style="width:35px;height:35px">
+        </lord-icon>
+        <h1>Cart</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <main id="items" class="col-sm-8 row"></main>
+            <aside class="col-sm-4" id="cart-foo">
+                <h2>Your Order</h2>
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <p class="text-right" id="titl">Total: <span id="total"></span>&dollar;</p>
+                <button id="boton-vaciar" class="btn btn-danger">Empty</button>
+                <a href="https://registro.pse.com.co/PSEUserRegister/StartTransaction.htm?enc=tnPcJHMKlSnmRpHM8fAbu3HxIR0DN4Hi4m10eFSVWcPUwwIqR7TuQ6GZFEbe621%2f" target="_blank"><button id="pay">Go pay</button></a>
+            </aside>
+        </div>
+    </div>
+    <script src="./scripts/main.js"></script>
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/c2390a8042.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9c7f93825a.js" crossorigin="anonymous"></script>
+</body>
+</html>
